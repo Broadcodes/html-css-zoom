@@ -33,39 +33,36 @@ header {
     color: #fff;
     font-family: 'Overpass', sans-serif;
     background-color: #4a4a4a;
-    border-radius: 6px;
+    border-radius: 4px;
     display: flex;
     align-items: center;
-    padding: 0 4px;
-    height: 4vh;
-    margin: 2px 3px;
+    padding: 0 3px;
+    margin: 2px 2px;
     cursor: pointer;
 }
 
 .cambiaSchermata img {
     padding-right: 2px;
-    padding-bottom: 2px;
-    width: 20px;
+    width: 15px;
 }
 
 .cambiaSchermata h2 {
-    font-size: 0.8rem;
-}
-
-/* Pulsante per attivare lo schermo intero */
-.schermoIntero img {
-    width: 15px;
+    font-size: 0.4rem;
 }
 
 .schermoIntero {
     background-color: #4a4a4a;
-    border-radius: 8px;
+    border-radius: 4px;
     display: flex;
     align-items: center;
-    padding: 0 5px;
-    height: 4vh;
-    margin: 0px 4px;
+    padding: 2px 3px;
+    margin: 2px 2px;
     cursor: pointer;
+}
+
+/* Pulsante per attivare lo schermo intero */
+.schermoIntero img {
+    width: 8px;
 }
 
 /* Main: contenuto utenti */
@@ -79,18 +76,43 @@ main {
 .contenitoreUtenti {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 5px;
+    column-gap: 3px;
 }
 
 /* Singola area contenente l'immagine */
 .schermataUtente {
-    width: calc(100% / 7 - 5px);
-    margin-bottom: 8px;
+    width: calc(100% / 7 - 3px);
+    margin-bottom: 4px;
+    position: relative;
 }
 
 .schermataUtente img {
     width: 100%;
-    /*calc = altezza del viewheight - 3vh di margine - margini del contenitore principale e il margine dell'utente*/
-    height: calc((85vh - 80px) / 5);
+    /* calc = altezza del viewheight - 3vh di margine - margini del contenitore principale e il margine dell'utente*/
+    height: calc((85vh - 60px) / 5);
     object-fit: cover;
+}
+
+.etichettaNomeUtente{
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(86, 86, 86, 0.644);
+}
+
+.etichettaNomeUtente img{
+    width: 7px;
+    height: 7px;
+    margin: 2px 3px;
+    position: relative;
+}
+
+.etichettaNomeUtente h2{
+    font-size: 0.4rem;
+    color: #fff;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 200;
+    padding-right: 5px;
 }
