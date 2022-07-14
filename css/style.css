@@ -39,6 +39,7 @@ header{
     padding: 0 4px;
     height: 4vh;
     margin: 2px 3px;
+    cursor: pointer;
 }
 
 .cambiaSchermata img{
@@ -64,4 +65,25 @@ header{
     padding: 0 5px;
     height: 4vh;
     margin: 0px 4px;
+    cursor: pointer;
+}
+
+/* Main: contenuto utenti */
+main{
+    background-color: #000;
+    height: 85vh;
+    padding: 30px 70px;
+    border: 1px solid white; /* da rimuovere */
+}
+
+.contenitoreUtenti{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid white; /* da rimuovere */
+}
+
+.schermataUtente{
+    width: calc(100% / 7);
+    height: calc((85vh - 60px) / 5);
+    border: 1px solid white; /* da rimuovere */
 }
