@@ -1,16 +1,33 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Zoom</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoom</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@200&display=swap" rel="stylesheet">
 
-   <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <header>
 
+<body>
+    <!-- Header: barra superiore schermata -->
+    <header>
+        <!-- Area per contenere i pulsanti per il controllo dello schermo -->
+        <div class="controllerSchermo"> 
+            <!-- Pulsante Speaker View -->
+            <div class="cambiaSchermata">
+                <img src="icon/grid-svgrepo-com.svg" alt="Cambia Schermata">
+                <h2>Speaker View</h2>
+            </div>
+            <!-- Pulsante per attivare lo schermo intero -->
+            <div class="schermoIntero">
+                <img src="icon/maximize-solid.svg" alt="Schermo Intero">
+            </div>
+        </div>
     </header>
 
     <main>
@@ -21,4 +38,5 @@
 
     </footer>
 </body>
+
 </html>
