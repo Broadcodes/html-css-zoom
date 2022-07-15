@@ -137,12 +137,17 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: baseline;
     cursor: pointer;
 }
 
 .mic img {
-    padding: 8px 10px 5px;
+    height: 40px;
+    padding: 14px 10px 5px;
+}
+
+.mic p{
+    padding-top: 4px;
 }
 
 .mic p,
@@ -154,7 +159,8 @@ footer {
 }
 
 .video img {
-    padding: 10px 10px 5px;
+    height: 40px;
+    padding: 10px 20px 5px;
 }
 
 .freccia {
@@ -170,7 +176,7 @@ footer {
 }
 
 .controllerCentrale {
-    max-width: 700px;
+    width: 700px;
     margin: 0 auto;
     flex-grow: 1;
     display: flex;
@@ -178,7 +184,7 @@ footer {
 }
 
 .areaController {
-    flex-basis: 13%;
+    flex-basis: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -187,12 +193,12 @@ footer {
 }
 
 .areaController img {
-    height: 5vh;
+    height: 35px;
     padding: 0px 8px 4px;
 }
 
 .aumentaSpazio {
-    flex-basis: 20%;
+    flex-basis: 9%;
 }
 
 .riduciSpazio {
