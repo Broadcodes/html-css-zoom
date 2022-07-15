@@ -36,18 +36,18 @@ header {
     border-radius: 4px;
     display: flex;
     align-items: center;
-    padding: 0 3px;
+    padding: 3px 5px;
     margin: 2px 2px;
     cursor: pointer;
 }
 
 .cambiaSchermata img {
-    padding-right: 2px;
-    width: 15px;
+    padding-right: 4px;
+    width: 20px;
 }
 
 .cambiaSchermata h2 {
-    font-size: 0.4rem;
+    font-size: 0.8rem;
 }
 
 .schermoIntero {
@@ -55,14 +55,14 @@ header {
     border-radius: 4px;
     display: flex;
     align-items: center;
-    padding: 2px 3px;
+    padding: 4px 6px;
     margin: 2px 2px;
     cursor: pointer;
 }
 
 /* Pulsante per attivare lo schermo intero */
 .schermoIntero img {
-    width: 8px;
+    width: 12px;
 }
 
 /* Main: contenuto utenti */
@@ -76,20 +76,19 @@ main {
 .contenitoreUtenti {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 3px;
+    column-gap: 5px;
 }
 
 /* Singola area contenente l'immagine */
 .schermataUtente {
-    width: calc(100% / 7 - 3px);
-    margin-bottom: 4px;
+    width: calc(100% / 7 - 5px);
+    margin-bottom: 10px;
     position: relative;
 }
 
 .schermataUtente img {
     width: 100%;
-    /* calc = altezza del viewheight - 3vh di margine - margini del contenitore principale e il margine dell'utente*/
-    height: calc((82vh - 60px) / 5);
+    height: calc((82vh - 90px) / 5);
     object-fit: cover;
 }
 
@@ -143,25 +142,25 @@ footer {
 }
 
 .mic img {
-    padding: 0 8px 5px;
+    padding: 8px 10px 5px;
 }
 
 .mic p,
 .video p,
 .areaController p {
     text-align: center;
-    font-size: 0.4rem;
+    font-size: 0.6rem;
     color: #fff;
 }
 
 .video img {
-    padding: 7px 8px 0px;
+    padding: 10px 10px 5px;
 }
 
 .freccia {
     flex-basis: 13%;
     align-self: center;
-    padding: 2px;
+    padding: 4px;
     cursor: pointer;
 }
 
@@ -171,7 +170,7 @@ footer {
 }
 
 .controllerCentrale {
-    max-width: 350px;
+    max-width: 700px;
     margin: 0 auto;
     flex-grow: 1;
     display: flex;
@@ -199,7 +198,7 @@ footer {
 .riduciSpazio {
     flex-basis: auto;
     width: 14px;
-    padding: 13px;
+    padding: 25px 0;
 }
 
 .abbandona {
@@ -217,5 +216,5 @@ footer {
 
 .abbandona h2 {
     color: red;
-    font-size: 0.5rem;
+    font-size: 0.9rem;
 }
